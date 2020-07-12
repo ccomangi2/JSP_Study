@@ -1,0 +1,14 @@
+<error-page>
+<error-code>404</error-code>
+<location>/error/error404.jsp</location>
+</error-page>
+
+<error-page>
+<error-code>500</error-code>
+<location>/error/error500.jsp</location>
+</error-page>
+
+<error-page>
+<error-code>java.lang.NullPointerException</error-code>
+<location>/error/errorNullPointer.jsp</location>
+</error-page>
